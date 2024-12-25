@@ -1,28 +1,19 @@
 <!DOCTYPE html>
-
 <html>
-    <head>
-        <title>Digital Clock</title>
-        <link rel="stylesheet" href="styles.css">
-        <script src="script.js"></script>
-    </head>
-    <body>
+<head>
+    <title>Modern Digital Clock</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
         <div class="clock">
-            <div>
-                <p class="heading">Hours</p>
-                <div id="clock-hours" class="time"></div>
-            </div>
-            <div>
-                <p class="heading">Minutes</p>
-                <div id="clock-minutes" class="time"></div>
-            </div>
-            <div>
-                <p class="heading">Seconds</p>
-                <div id="clock-seconds" class="time"></div>
-            </div>
-
-            <div id="date" class="date"></div>
-
+            <div id="clock-hours" class="time"></div>
+            <div id="clock-minutes" class="time"></div>
+            <div id="clock-seconds" class="time"></div>
         </div>
-    </body>
+        <div id="date" class="date"></div>
+        <button id="theme-toggle" class="theme-btn">Toggle Theme</button>
+    </div>
+</body>
 </html>
